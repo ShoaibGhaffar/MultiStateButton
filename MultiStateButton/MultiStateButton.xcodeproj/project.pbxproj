@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22748E3C17E05722005D9EDA /* MultiStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22748E3B17E05722005D9EDA /* MultiStateButton.m */; };
+		22748E4617E05735005D9EDA /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E3E17E05735005D9EDA /* button.png */; };
+		22748E4717E05735005D9EDA /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E3F17E05735005D9EDA /* button2.png */; };
+		22748E4817E05735005D9EDA /* button2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E4017E05735005D9EDA /* button2@2x.png */; };
+		22748E4917E05735005D9EDA /* button3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E4117E05735005D9EDA /* button3.png */; };
+		22748E4A17E05735005D9EDA /* button3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E4217E05735005D9EDA /* button3@2x.png */; };
+		22748E4B17E05735005D9EDA /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E4317E05735005D9EDA /* button@2x.png */; };
+		22748E4C17E05735005D9EDA /* Icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E4417E05735005D9EDA /* Icon144.png */; };
+		22748E4D17E05735005D9EDA /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E4517E05735005D9EDA /* Icon72.png */; };
+		22D8731217DEFE94008EACCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D8731117DEFE94008EACCE /* UIKit.framework */; };
+		22D8731417DEFE94008EACCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D8731317DEFE94008EACCE /* Foundation.framework */; };
+		22D8731617DEFE94008EACCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D8731517DEFE94008EACCE /* CoreGraphics.framework */; };
+		22D8731C17DEFE94008EACCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22D8731A17DEFE94008EACCE /* InfoPlist.strings */; };
+		22D8731E17DEFE94008EACCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8731D17DEFE94008EACCE /* main.m */; };
+		22D8732217DEFE94008EACCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8732117DEFE94008EACCE /* AppDelegate.m */; };
+		22D8732417DEFE94008EACCE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8732317DEFE94008EACCE /* Default.png */; };
+		22D8732617DEFE94008EACCE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8732517DEFE94008EACCE /* Default@2x.png */; };
+		22D8732817DEFE94008EACCE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8732717DEFE94008EACCE /* Default-568h@2x.png */; };
+		22D8732B17DEFE94008EACCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8732A17DEFE94008EACCE /* ViewController.m */; };
+		22D8732E17DEFE94008EACCE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D8732C17DEFE94008EACCE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22748E3A17E05722005D9EDA /* MultiStateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiStateButton.h; sourceTree = "<group>"; };
+		22748E3B17E05722005D9EDA /* MultiStateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiStateButton.m; sourceTree = "<group>"; };
+		22748E3E17E05735005D9EDA /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		22748E3F17E05735005D9EDA /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		22748E4017E05735005D9EDA /* button2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button2@2x.png"; sourceTree = "<group>"; };
+		22748E4117E05735005D9EDA /* button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button3.png; sourceTree = "<group>"; };
+		22748E4217E05735005D9EDA /* button3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button3@2x.png"; sourceTree = "<group>"; };
+		22748E4317E05735005D9EDA /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		22748E4417E05735005D9EDA /* Icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon144.png; sourceTree = "<group>"; };
+		22748E4517E05735005D9EDA /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
+		22D8730E17DEFE94008EACCE /* MultiStateButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiStateButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D8731117DEFE94008EACCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22D8731317DEFE94008EACCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22D8731517DEFE94008EACCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22D8731917DEFE94008EACCE /* MultiStateButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiStateButton-Info.plist"; sourceTree = "<group>"; };
+		22D8731B17DEFE94008EACCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22D8731D17DEFE94008EACCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22D8731F17DEFE94008EACCE /* MultiStateButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiStateButton-Prefix.pch"; sourceTree = "<group>"; };
+		22D8732017DEFE94008EACCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22D8732117DEFE94008EACCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22D8732317DEFE94008EACCE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22D8732517DEFE94008EACCE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22D8732717DEFE94008EACCE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22D8732917DEFE94008EACCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22D8732A17DEFE94008EACCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22D8732D17DEFE94008EACCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D8730B17DEFE94008EACCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D8731217DEFE94008EACCE /* UIKit.framework in Frameworks */,
+				22D8731417DEFE94008EACCE /* Foundation.framework in Frameworks */,
+				22D8731617DEFE94008EACCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22748E3917E05722005D9EDA /* MultiStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				22748E3A17E05722005D9EDA /* MultiStateButton.h */,
+				22748E3B17E05722005D9EDA /* MultiStateButton.m */,
+			);
+			path = MultiStateButton;
+			sourceTree = "<group>";
+		};
+		22748E3D17E05735005D9EDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22748E3E17E05735005D9EDA /* button.png */,
+				22748E3F17E05735005D9EDA /* button2.png */,
+				22748E4017E05735005D9EDA /* button2@2x.png */,
+				22748E4117E05735005D9EDA /* button3.png */,
+				22748E4217E05735005D9EDA /* button3@2x.png */,
+				22748E4317E05735005D9EDA /* button@2x.png */,
+				22748E4417E05735005D9EDA /* Icon144.png */,
+				22748E4517E05735005D9EDA /* Icon72.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22D8730517DEFE94008EACCE = {
+			isa = PBXGroup;
+			children = (
+				22D8731717DEFE94008EACCE /* MultiStateButton */,
+				22D8731017DEFE94008EACCE /* Frameworks */,
+				22D8730F17DEFE94008EACCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22D8730F17DEFE94008EACCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D8730E17DEFE94008EACCE /* MultiStateButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D8731017DEFE94008EACCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D8731117DEFE94008EACCE /* UIKit.framework */,
+				22D8731317DEFE94008EACCE /* Foundation.framework */,
+				22D8731517DEFE94008EACCE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D8731717DEFE94008EACCE /* MultiStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				22D8732917DEFE94008EACCE /* ViewController.h */,
+				22D8732A17DEFE94008EACCE /* ViewController.m */,
+				22D8732C17DEFE94008EACCE /* ViewController.xib */,
+				22748E3917E05722005D9EDA /* MultiStateButton */,
+				22748E3D17E05735005D9EDA /* Resources */,
+				22D8734517DF31CC008EACCE /* Defaults */,
+				22D8731817DEFE94008EACCE /* Supporting Files */,
+			);
+			path = MultiStateButton;
+			sourceTree = "<group>";
+		};
+		22D8731817DEFE94008EACCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D8731917DEFE94008EACCE /* MultiStateButton-Info.plist */,
+				22D8731A17DEFE94008EACCE /* InfoPlist.strings */,
+				22D8731D17DEFE94008EACCE /* main.m */,
+				22D8731F17DEFE94008EACCE /* MultiStateButton-Prefix.pch */,
+				22D8732317DEFE94008EACCE /* Default.png */,
+				22D8732517DEFE94008EACCE /* Default@2x.png */,
+				22D8732717DEFE94008EACCE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22D8734517DF31CC008EACCE /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				22D8732017DEFE94008EACCE /* AppDelegate.h */,
+				22D8732117DEFE94008EACCE /* AppDelegate.m */,
+			);
+			name = Defaults;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D8730D17DEFE94008EACCE /* MultiStateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D8733117DEFE94008EACCE /* Build configuration list for PBXNativeTarget "MultiStateButton" */;
+			buildPhases = (
+				22D8730A17DEFE94008EACCE /* Sources */,
+				22D8730B17DEFE94008EACCE /* Frameworks */,
+				22D8730C17DEFE94008EACCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiStateButton;
+			productName = MultiStateButton;
+			productReference = 22D8730E17DEFE94008EACCE /* MultiStateButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D8730617DEFE94008EACCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shoaib Mac Mini";
+			};
+			buildConfigurationList = 22D8730917DEFE94008EACCE /* Build configuration list for PBXProject "MultiStateButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22D8730517DEFE94008EACCE;
+			productRefGroup = 22D8730F17DEFE94008EACCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D8730D17DEFE94008EACCE /* MultiStateButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D8730C17DEFE94008EACCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D8731C17DEFE94008EACCE /* InfoPlist.strings in Resources */,
+				22D8732417DEFE94008EACCE /* Default.png in Resources */,
+				22D8732617DEFE94008EACCE /* Default@2x.png in Resources */,
+				22D8732817DEFE94008EACCE /* Default-568h@2x.png in Resources */,
+				22D8732E17DEFE94008EACCE /* ViewController.xib in Resources */,
+				22748E4617E05735005D9EDA /* button.png in Resources */,
+				22748E4717E05735005D9EDA /* button2.png in Resources */,
+				22748E4817E05735005D9EDA /* button2@2x.png in Resources */,
+				22748E4917E05735005D9EDA /* button3.png in Resources */,
+				22748E4A17E05735005D9EDA /* button3@2x.png in Resources */,
+				22748E4B17E05735005D9EDA /* button@2x.png in Resources */,
+				22748E4C17E05735005D9EDA /* Icon144.png in Resources */,
+				22748E4D17E05735005D9EDA /* Icon72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D8730A17DEFE94008EACCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D8731E17DEFE94008EACCE /* main.m in Sources */,
+				22D8732217DEFE94008EACCE /* AppDelegate.m in Sources */,
+				22D8732B17DEFE94008EACCE /* ViewController.m in Sources */,
+				22748E3C17E05722005D9EDA /* MultiStateButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22D8731A17DEFE94008EACCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D8731B17DEFE94008EACCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22D8732C17DEFE94008EACCE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D8732D17DEFE94008EACCE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22D8732F17DEFE94008EACCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22D8733017DEFE94008EACCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D8733217DEFE94008EACCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiStateButton/MultiStateButton-Prefix.pch";
+				INFOPLIST_FILE = "MultiStateButton/MultiStateButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22D8733317DEFE94008EACCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiStateButton/MultiStateButton-Prefix.pch";
+				INFOPLIST_FILE = "MultiStateButton/MultiStateButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D8730917DEFE94008EACCE /* Build configuration list for PBXProject "MultiStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D8732F17DEFE94008EACCE /* Debug */,
+				22D8733017DEFE94008EACCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D8733117DEFE94008EACCE /* Build configuration list for PBXNativeTarget "MultiStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D8733217DEFE94008EACCE /* Debug */,
+				22D8733317DEFE94008EACCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D8730617DEFE94008EACCE /* Project object */;
+}
